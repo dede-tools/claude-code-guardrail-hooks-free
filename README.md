@@ -108,3 +108,8 @@ https://dedeai.booth.pm/items/8353254
 ## License
 
 MIT. The Pro version has its own commercial license.
+
+## Article
+
+Japanese article:
+https://zenn.dev/dedetools/articles/2443d549fcca03
