@@ -89,7 +89,10 @@ node --test tests/*.test.mjs
 
 ## Pro version
 
-The [Pro version](https://example.com/pro) adds:
+The [Pro version](https://dedeai.booth.pm/items/8353254) adds:
+
+Japanese BOOTH page:
+https://dedeai.booth.pm/items/8353254
 
 - `audit` / `balanced` / `strict` modes.
 - Configurable per-rule action (`block`, `ask`, `off`).
