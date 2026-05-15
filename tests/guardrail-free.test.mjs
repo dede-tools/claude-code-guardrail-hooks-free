@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { analyze } from "../.claude/hooks/guardrail-free.mjs";
+import { analyze } from "../claude-template/hooks/guardrail-free.mjs";
 
 function bash(command) {
   return { tool_name: "Bash", tool_input: { command } };

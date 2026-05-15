@@ -10,11 +10,11 @@ It runs in Node.js 18+ and has zero dependencies.
 
 ## Install
 
-Copy the `.claude/` folder into your project root:
+Copy the `claude-template/` folder into your project root, then rename it to `.claude/`:
 
 ```text
 your-project/
-  .claude/
+  claude-template/  ->  .claude/
     hooks/
       guardrail-free.mjs
     settings.example.json
@@ -67,7 +67,7 @@ Or pipe a fixture into the hook directly:
 
 ```bash
 echo '{"tool_name":"Bash","tool_input":{"command":"rm -rf /"}}' \
-  | node .claude/hooks/guardrail-free.mjs
+  | node claude-template/hooks/guardrail-free.mjs
 ```
 
 ## Test it
